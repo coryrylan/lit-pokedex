@@ -1,12 +1,25 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Lit + TS</title>
+    <meta charset="utf-8">
+    <title>Pokédex</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/assets/images/icons/icon-72x72.png">
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#ef5350">
+    <meta name="description" content="An Open Source Pokédex built with Lit">
+    <meta name="keywords" content="Lit, Pokémon, Pokédex, TypeScript, JavaScript">
     <link rel="stylesheet" href="./src/index.css" />
     <script type="module" src="/src/index.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-36671151-9', 'auto');
+      ga('send', 'pageview');
+    </script>
   </head>
   <body>
     <app-root></app-root>
